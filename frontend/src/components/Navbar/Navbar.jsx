@@ -3,7 +3,7 @@ import React, { useContext, useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assests/assets'
 import { Link, useNavigate } from 'react-router-dom';
-import { StoreContext } from '../../Context/StoreContext';
+import { StoreContext } from '../../context/StoreContext';
 // eslint-disable-next-line react/prop-types
 const Navbar = ({setShowLogin}) => {
     const[menu, setMenu] =useState("menu");
