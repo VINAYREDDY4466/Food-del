@@ -2,7 +2,7 @@
 import React, { useContext, useState } from 'react'
 import './FoodItem.css'
 import { assets } from '../../assests/assets'
-import { StoreContext } from '../../Context/StoreContext';
+import { StoreContext } from '../../context/StoreContext';
 // eslint-disable-next-line react/prop-types
 const FoodItem = ({id, name, price ,description, image}) => {
   const{cartItems, addToCart, removeFromCart,url}= useContext(StoreContext);
