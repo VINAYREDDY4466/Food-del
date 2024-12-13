@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useContext } from 'react'
 import './PlaceOrder.css'
-import { StoreContext } from '../../Context/StoreContext'
+import { StoreContext } from '../../context/StoreContext'
 const PlaceOrder = () => {
   const{getTotalCarAmount}=useContext(StoreContext);
   return (
